@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/fon.jpg');
+    font-size: 20px;    
+}
+h1{
+    color: rgba(94, 15, 197, 0.904);
+    text-align: center;
+    font-family: 'Grenouille Cyr', sans-serif;
+    font-size: 60px;  
+}
+h2{
+    color: rgb(34, 104, 235);    
+}
+.leftimg{
+    float:left;
+    margin: 5px 30px 7px 0;
+}
+.wrapper {
+    display: grid;
+}
+@font-face {
+	font-family: 'Grenouille Cyr';
+	src: url('fonts/grenouille_cyr.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/grenouille_cyr.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/grenouille_cyr.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/grenouille_cyr.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/grenouille_cyr.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/grenouille_cyr.svg#grenouille_cyr') format('svg'); /* Chrome < 4, Legacy iOS */
+}
